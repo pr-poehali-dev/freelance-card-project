@@ -46,12 +46,12 @@ const Index = () => {
       </section>
 
       {/* Divider */}
-      <div className="relative py-16">
+      <div className="relative py-20 bg-gradient-to-r from-slate-100 via-blue-50 to-slate-100">
         <div className="absolute inset-0 flex items-center">
-          <div className="w-full border-t border-slate-200"></div>
+          <div className="w-full border-t-2 border-slate-300"></div>
         </div>
         <div className="relative flex justify-center">
-          <div className="bg-gradient-to-r from-blue-600 to-purple-600 w-16 h-1 rounded-full"></div>
+          <div className="bg-gradient-to-r from-blue-600 to-purple-600 w-24 h-2 rounded-full shadow-lg"></div>
         </div>
       </div>
 
@@ -111,12 +111,12 @@ const Index = () => {
       </section>
 
       {/* Divider */}
-      <div className="relative py-16">
+      <div className="relative py-20 bg-gradient-to-r from-blue-50 via-purple-50 to-blue-50">
         <div className="absolute inset-0 flex items-center">
-          <div className="w-full border-t border-slate-200"></div>
+          <div className="w-full border-t-2 border-slate-300"></div>
         </div>
         <div className="relative flex justify-center">
-          <div className="bg-gradient-to-r from-purple-600 to-blue-600 w-16 h-1 rounded-full"></div>
+          <div className="bg-gradient-to-r from-purple-600 to-blue-600 w-24 h-2 rounded-full shadow-lg"></div>
         </div>
       </div>
 
@@ -181,12 +181,12 @@ const Index = () => {
 
 
       {/* Divider */}
-      <div className="relative py-16">
+      <div className="relative py-20 bg-gradient-to-r from-purple-50 via-green-50 to-purple-50">
         <div className="absolute inset-0 flex items-center">
-          <div className="w-full border-t border-slate-200"></div>
+          <div className="w-full border-t-2 border-slate-300"></div>
         </div>
         <div className="relative flex justify-center">
-          <div className="bg-gradient-to-r from-blue-600 to-green-500 w-16 h-1 rounded-full"></div>
+          <div className="bg-gradient-to-r from-blue-600 to-green-500 w-24 h-2 rounded-full shadow-lg"></div>
         </div>
       </div>
 
