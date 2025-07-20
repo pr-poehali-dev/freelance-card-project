@@ -7,7 +7,7 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
       {/* Header */}
-      <header className="container mx-auto px-6 py-4">
+      <header className="container mx-auto px-6 py-4 relative">
         <nav className="flex justify-between items-center">
           <div className="text-2xl font-bold text-slate-800">Евгений</div>
           <div className="hidden md:flex space-x-8">
@@ -16,6 +16,7 @@ const Index = () => {
             <a href="#contact" className="text-slate-600 hover:text-blue-600 transition-colors">Контакты</a>
           </div>
         </nav>
+        <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-slate-300 to-transparent"></div>
       </header>
 
       {/* Hero Section */}
