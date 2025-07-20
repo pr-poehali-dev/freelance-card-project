@@ -158,26 +158,7 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Stats Section */}
-      <section className="container mx-auto px-6 py-20 bg-slate-800">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl font-bold text-white mb-12">Результаты в цифрах</h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            <div>
-              <div className="text-4xl font-bold text-blue-400 mb-2">150+</div>
-              <div className="text-slate-300">Завершённых проектов</div>
-            </div>
-            <div>
-              <div className="text-4xl font-bold text-blue-400 mb-2">35%</div>
-              <div className="text-slate-300">Средний рост конверсии</div>
-            </div>
-            <div>
-              <div className="text-4xl font-bold text-blue-400 mb-2">98%</div>
-              <div className="text-slate-300">Довольных клиентов</div>
-            </div>
-          </div>
-        </div>
-      </section>
+
 
       {/* Contact Section */}
       <section id="contact" className="container mx-auto px-6 py-20">
