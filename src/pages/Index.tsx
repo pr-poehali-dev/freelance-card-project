@@ -45,6 +45,16 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Divider */}
+      <div className="relative py-16">
+        <div className="absolute inset-0 flex items-center">
+          <div className="w-full border-t border-slate-200"></div>
+        </div>
+        <div className="relative flex justify-center">
+          <div className="bg-gradient-to-r from-blue-600 to-purple-600 w-16 h-1 rounded-full"></div>
+        </div>
+      </div>
+
       {/* About Section */}
       <section id="about" className="container mx-auto px-6 py-20 bg-white/50 backdrop-blur">
         <div className="max-w-4xl mx-auto">
@@ -99,6 +109,16 @@ const Index = () => {
           </div>
         </div>
       </section>
+
+      {/* Divider */}
+      <div className="relative py-16">
+        <div className="absolute inset-0 flex items-center">
+          <div className="w-full border-t border-slate-200"></div>
+        </div>
+        <div className="relative flex justify-center">
+          <div className="bg-gradient-to-r from-purple-600 to-blue-600 w-16 h-1 rounded-full"></div>
+        </div>
+      </div>
 
       {/* Portfolio Section */}
       <section id="portfolio" className="container mx-auto px-6 py-20">
@@ -159,6 +179,16 @@ const Index = () => {
       </section>
 
 
+
+      {/* Divider */}
+      <div className="relative py-16">
+        <div className="absolute inset-0 flex items-center">
+          <div className="w-full border-t border-slate-200"></div>
+        </div>
+        <div className="relative flex justify-center">
+          <div className="bg-gradient-to-r from-blue-600 to-green-500 w-16 h-1 rounded-full"></div>
+        </div>
+      </div>
 
       {/* Contact Section */}
       <section id="contact" className="container mx-auto px-6 py-20">
