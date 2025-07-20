@@ -16,7 +16,7 @@ const Index = () => {
             <a href="#contact" className="text-slate-600 hover:text-blue-600 transition-colors">Контакты</a>
           </div>
         </nav>
-        <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-slate-300 to-transparent"></div>
+        <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-gradient-to-r from-transparent via-slate-400 to-transparent shadow-sm"></div>
       </header>
 
       {/* Hero Section */}
